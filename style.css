@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+}
+.menu{
+    display: flex;
+    height: 16vh;
+    width: 100%;
+    background-color: #e2dce8;
+}
+.menulogo{
+  position: relative;
+    width: 50%;
+    height: 16vh;
+}
+.menulogoone{
+  position: relative;
+}
+.menu a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a {
+    background:
+      linear-gradient(
+        to right,
+        rgb(180, 180, 180),
+        #c5c3c3
+      ),
+      linear-gradient(
+        to right,
+        rgb(150, 150, 150),
+        rgb(72, 72, 72),
+        rgb(6, 6, 6)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  
+  a:hover {
+    background-size: 0 3px, 100% 3px;
+  }
+  body {
+    font-size: 40px;
+  }
+.products{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 4vh;
+    height: 16vh;
+    width: 15%;
+}
+.about{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 4vh;
+    height: 16vh;
+    width: 15%;
+}
+.signin{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 4vh;
+    height: 16vh;
+    width: 15%;
+
+}
+.base{
+  display: flex;
+  height: 84vh;
+  width: 100%;
+}
+.defone{
+  display: flex;
+  height: 84vh;
+  width: 50%;
+  background-color: rgb(255, 172, 172);
+}
+.candyone{
+  padding: 50px;
+  padding: 120px;
+  width: 100%;
+  height: 51.6vh;
+  background-color: rgb(255, 172, 172);
+}
+.defonetxt{
+  width: 50%;
+  height: 20px;
+  padding: 70px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.candyimg{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.deftwo{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(255, 172, 172);
+  height: 84vh;;
+  width: 50%;
+}
+.shoppingbuy{
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.hover08 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
