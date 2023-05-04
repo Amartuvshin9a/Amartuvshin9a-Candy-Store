@@ -1,43 +1,43 @@
 const products = [
   {
-    name: "candyOne",
+    name: "Strawberry Cupcake",
     price: 1000,
-    description: "Candy",
+    description: "🧁",
     type: "chocolate",
     image:
-      "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      "./strawberrycupcake.png",
   },
   {
-    name: "candyTwo",
+    name: "Starberry Milk",
     price: 1200,
-    description: "Candy",
+    description: "🥛",
     type: "gummy",
     image:
-      "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      "./StrawberryMilk.png",
   },
   {
-    name: "candyThree",
+    name: "Strawberry Icecream",
     price: 2300,
-    description: "Candy",
+    description: "🍧",
     type: "chocolate",
     image:
-      "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      "./StrawberryIcecream.png",
   },
   {
-    name: "candyFour",
+    name: "Strawberry Cake",
     price: 550,
-    description: "Candy",
+    description: "🍰",
     type: "gummy",
     image:
-      "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      "./StrawberryCake.png",
   },
   {
-    name: "candyFive",
+    name: "Strawberry Lolipop",
     price: 3200,
-    description: "Candy",
+    description: "🍭",
     type: "chocolate",
     image:
-      "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      "./Strawberry Lolipop.png",
   },
 ];
 
