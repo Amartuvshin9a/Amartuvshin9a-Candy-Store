@@ -8,24 +8,33 @@
     <link rel="stylesheet" href="./product.css" />
   </head>
   <body>
-    <div class="menu">
-      <div class="menulogo">
-          <img class="menulogoone"  height="250px" src="./Circle Shape Ice Cream Beverages Street Food Shop Logo.png" alt="LOGO">
+    <div class="container">
+      <div class="menu">
+        <div class="menulogo">
+            <img class="menulogoone"  height="250px" src="./Circle Shape Ice Cream Beverages Street Food Shop Logo.png" alt="LOGO">
+        </div>
+        <div class="home">
+          <a style="color: #333333;" href="index.html">HOME</a>
       </div>
-      <div class="products">
-          <a style="color: #333333;" href="./index.html">Home</a>
+        <div class="about">
+            <a style="color: #333333;" href="#">ABOUT</a>
+        </div>
+        <div class="signin">
+            <a style="color: #333333;" href="login.html">SIGN IN</a>
+        </div>
+    </div>
+    <div class="fill"></div>
+      <div id="products"></div>
+      <div id="basket"></div>
+      <div class="yamate">
+        <div class="halfyama">
+          <button class="lolololo" onclick="Purchase()">BUY</button>
+        </div>
+        <div class="otherhalfyama">
+          <p id="total"></p>
+          <script src="./purchase.js"></script>
+        </div>
       </div>
-      <div class="about">
-          <a style="color: #333333;" href="#">ABOUT</a>
-      </div>
-      <div class="signin">
-          <a style="color: #333333;" href="login.html">SIGN IN</a>
-      </div>
-  </div>
-    <div id="products"></div>
-    <div id="basket"></div>
-    <button onclick="Purchase()">purchase</button>
-    <p id="total"></p>
-    <script src="./purchase.js"></script>
+    </div>
   </body>
 </html>

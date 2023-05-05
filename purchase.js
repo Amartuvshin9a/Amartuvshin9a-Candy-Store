@@ -55,8 +55,10 @@ function PrintProducts() {
       <h3 class="title">${product.name}</h3>
       <p>${product.description}</p>
       <p id="price">${product.price}</p>
-      <button onclick="AddItem('${product.name}')">add</button>
-      <button onclick="MinusItem('${product.name}')">minus</button>
+      <div class ="purchasing">
+      <button class="plus" onclick="AddItem('${product.name}')">+</button>
+      <button class="minus" onclick="MinusItem('${product.name}')">-</button>
+      </div>
     `;
 
     newDiv += div.outerHTML;
@@ -118,7 +120,7 @@ function Basket() {
   const basketHtml = userbasket
     .map(
       ({ name, quantity }) => `
-    <h1>${name} - ${quantity}</h1>
+    <h1 class='lol'>${name} - ${quantity}</h1>
   `
     )
     .join("");
